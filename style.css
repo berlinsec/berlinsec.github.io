@@ -1,0 +1,13 @@
+html {
+--hellblau: #6e96cc;
+--tuerkis: #197c92;
+--fastweiss: #fffff8;
+--orange: #f0a531;
+--roetlich: #a74e57;  
+  background-color: var(--body-bg-color;
+  color: var(--body-text-color);
+}
+section { display: flex; }
+a {
+  color: var(--body-link-color);
+}
