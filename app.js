@@ -49,7 +49,7 @@ function talkMetaData() {
   xhr.open("GET", "./talks.json");
   //xhr.responseText = "json"; // doesn't work in IE.
   xhr.onload = function(load) {
-    var talks = JSON.parse(load.target.response);
+    var talks = JSON.parse(load.target.responseText);
     var section = document.getElementById("next-meetup-talks");
     section.innerHTML = "";
     /*
