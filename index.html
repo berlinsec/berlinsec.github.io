@@ -3,68 +3,85 @@
 <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
         <title>Berlin Application Security &amp; Cryptography Meetup</title>
 </head>
 <body>
 <header>
-<!-- get someone to do nice artwork with ampelmännchen and
- hacker images
- like https://thenounproject.com/search/?q=cyber&i=65512
- and https://thenounproject.com/search/?q=hacker
+        <div></div>
+        <!-- get someone to do nice artwork with ampelmännchen and
+         hacker images
+         like https://thenounproject.com/search/?q=cyber&i=65512
+         and https://thenounproject.com/search/?q=hacker
 
--->
+        -->
 </header>
-<h1>Next Meetup</h1>
-<section id="next-meetup">
+<h1 id="next-meetup-headline">Next meetup</h1>
+<section id="next-meetup-talks">
         <div class="presentation">
-                <h3 class="presentation-title">Lorem ipsum dolor</h3>
-                <p class="presentation-author">Anonymous Coward</p>
-                <p class="presentation-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac vestibulum augue. Pellentesque quam ipsum, cursus vitae ex at, laoreet interdum lacus. Sed eu libero cursus, mollis elit nec, tristique odio. Sed turpis quam, blandit vel quam at, ornare posuere arcu. Proin eros magna, ornare non sapien at, cursus pharetra eros. Duis sodales interdum bibendum. Aliquam nec rutrum quam. Nam vitae eros non magna pretium ultricies.</p>
-        </div>
-        <div class="presentation">
-                <h3 class="presentation-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                <p class="presentation-author">Longname Dash-Something-Maidenname-Spoursename</p>
-                <p class="presentation-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac vestibulum augue. Pellentesque quam ipsum, cursus vitae ex at, laoreet interdum lacus. Sed eu libero cursus, mollis elit nec, tristique odio. Sed turpis quam, blandit vel quam at, ornare posuere arcu. Proin eros magna, ornare non sapien at, cursus pharetra eros. Duis sodales interdum bibendum. Aliquam nec rutrum quam. Nam vitae eros non magna pretium ultricies.</p>
+                <div>Fetching...</div>
         </div>
 </section>
 <hr>
-<section id="about">       
-<div id="where">
-        <h4>Where</h4>
-        <p>We meet at the Mozilla Berlin Community space</p>
-        <iframe width="425" height="350" frameborder="0" scrolling="no"
-                marginheight="0" marginwidth="0"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=13.385513126850128%2C52.54034991544556%2C13.387117087841034%2C52.54169410782815&amp;layer=mapnik"
-                style="border: 1px solid black"></iframe><br/>
-        <small>
-                <a href="https://www.openstreetmap.org/#map=19/52.54102/13.38632">View Larger Map</a>
-        </small>
-        <p>P.S.: Trouble finding us?<br>
-           Enter the compound through Voltastr. 5, take a left turn through the green gate and then make another left turn. Find Haus 12, Treppe 3 and go upstairs.
-        </p>
-</div>
+<section id="about">
+        <div id="where">
+                <h4>Where</h4>
+                <p>We meet at the <a
+                        href="https://www.openstreetmap.org/node/4039730931">Mozilla Berlin Community space</a><br>
+                        Voltastr. 5, 13355 Berlin</p>
+                <small>Trouble finding us?<br>
+                        Enter the compound through Voltastr. 5, take a left turn through
+                        the green gate <br>
+                        and then make another left turn.<br>
+                        Find <em>Haus 12, Treppe 3</em> and go upstairs.
+                        And <a href="https://www.openstreetmap.org/node/4039730931">
+                                Here's a map</a>.
+                </small>
+        </div>
 
+        <div id="when">
+                <h4>When</h4>
+                <p><em>We meet irregularly on Thursdays.
+                        Check our <a
+                                href="http://www.meetup.com/Berlin-Application-Security-Cryptography-Meetup">meetup page</a>
+                        for more!</em></p>
+        </div>
 
+        <div id="contact">
+                <h4>Contact</h4>
+                <p>
+                   <a href="https://github.com/berlinsec/berlinsec.github.io/wiki/BerlinSec-Wiki#submitting-a-talk">
+                           Submit a talk</a>.
+                        <br>
+                        <a href="http://www.meetup.com/Berlin-Application-Security-Cryptography-Meetup">
+                                Meetup page</a>
+                        <br>
+                        <a href="https://github.com/berlinsec">
+                                GitHub</a>
+                        <br>
 
-<div id="when">
-        <h4>When</h4>
-        <p><em>We meet irregularly. Check our<a
-                href="http://www.meetup.com/Berlin-Application-Security-Cryptography-Meetup">meetup page</a>
-                for more!</em></p>
+                </p>
 
-</div>
+        </div>
+        <div id="team">
+                <h4>Team</h4>
+                <p>We're a bunch of security enthusiasts, who happen to work for
+                        Mozilla. Our employer is nice enough to give us the
+                        space, but this meetup and its leaders do not speak
+                        on behalf of Mozilla.
+
+                        <!-- TODO ask meetup API for
+                        http://www.meetup
+                        .com/Berlin-Application-Security-Cryptography-Meetup/members
+                        /?op=leaders ??
+
+                        -->
+                </p>
+        </div>
 </section>
-<footer>
-<div id="who">
-        <h4>Who?</h4>
-        <p>
-                <!-- would be cool if we could tell github to just show
-                the folks listed at https://github.com/orgs/berlinsec/people
-                for everyone :|
-                -->
-        </p>
-</div>
-</footer>
 
+
+<script
+        src="https://api.meetup.com/Berlin-Application-Security-Cryptography-Meetup?sig_id=200779298&sig=2f4805131549626eb429a3297f4b7b2b2b1c566b&callback=meetupCallback"></script>
 </body>
 </html>

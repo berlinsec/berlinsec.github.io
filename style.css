@@ -1,13 +1,58 @@
 html {
---hellblau: #6e96cc;
---tuerkis: #197c92;
---fastweiss: #fffff8;
---orange: #f0a531;
---roetlich: #a74e57;  
-  background-color: var(--body-bg-color;
+  --body-bg-color: #ffffff;
+  --body-text-color: #03396c;
+  --body-link-color: #011f4b;
+  --talk-bg-color: #b3cde0;
+  --talk-author-color: #005b96;
+  background-color: var(--body-bg-color);
   color: var(--body-text-color);
+  font-family: Sans-Serif;
+
 }
-section { display: flex; }
+h1 {
+  text-align: center;
+}
+section { 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;      
+}
+@media (min-width: 768px) {
+  section { 
+    display: flex; 
+    flex-direction: row;
+    
+  }  
+  div.presentation {
+    max-width: 25%;  
+  }
+} 
 a {
   color: var(--body-link-color);
+}
+div {
+  margin: 10px;
+  padding: 5px;
+  min-width: 18%;
+  width: 200px;  
+}
+div.presentation {
+  background-color: var(--talk-bg-color);
+  flex-grow: 1;
+  border: 10px solid white;
+  box-shadow: 1px 1px 10px #ababab; 
+}
+div.presentation:nth-of-type(odd) {
+  transform: rotate(1deg);
+}
+div.presentation:nth-of-type(even) {
+  transform: rotate(-1deg);
+}
+div.presentation:nth-of-type(5n) {
+  transform: rotate(2deg);
+}
+
+p.presentation-author { 
+  color: var(--talk-author-color);
+  font-weight: bold;
 }
