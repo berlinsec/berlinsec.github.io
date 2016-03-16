@@ -15,17 +15,10 @@ h1 {
 section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-@media (min-width: 1024px) {
-  section {
-    display: flex;
-    flex-direction: row;
-
-  }
-  div.presentation {
-    max-width: 25%;
-  }
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 a {
   color: var(--body-link-color);
@@ -39,8 +32,13 @@ div {
 div.presentation {
   background-color: var(--talk-bg-color);
   flex-grow: 1;
-  border: 10px solid white;
+  border: 10px solid var(--body-bg-color);
   box-shadow: 1px 1px 10px #ababab;
+  padding: 15px;
+  min-width: 25%;
+  max-width: 500px;
+  max-width: 90%;
+
 }
 div.presentation:nth-of-type(odd) {
   transform: rotate(1deg);
@@ -56,9 +54,18 @@ p.presentation-author {
   color: var(--talk-author-color);
   font-weight: bold;
 }
-#logo-picture {
-  float:left;
-}
+
 #tagline {
   font-size: large;
+}
+header {
+  display: flex;
+  align-items: flex-start;
+}
+#tagline {
+  background-color: var(--talk-bg-color);
+  border: 10px solid var(--body-bg-color);
+  box-shadow: 1px 1px 10px #ababab;
+  font-weight: bold;
+  padding: 15px;
 }
