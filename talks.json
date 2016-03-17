@@ -8,7 +8,7 @@
   {
     "title": "On The Security Of Browser Extensions",
     "author": "Nicolas G",
-    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices lorem quis molestie varius. Morbi lobortis, lorem quis tempus elementum, lorem diam interdum ante, vel fermentum purus arcu ac mi. Sed rhoncus, arcu sed fringilla cursus, velit lectus laoreet lacus, ut scelerisque nibh ex malesuada neque. ",
+    "abstract": "In an everlasting struggle to find the balance between security, privacy and that toolbar which slipped in after you've installed Java, browser extension systems constantly evolve. Three years after Kotowicz has pwned our stuff, we will explore old and new attack techniques for both Firefox and Chrome. Finally, we will engage in a jolly expedition to long-forgotten extension types and convince them to exploit the browser itself.",
     "bio": ""
   }
 ]
