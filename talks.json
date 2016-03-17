@@ -7,7 +7,7 @@
   },
   {
     "title": "On The Security Of Browser Extensions",
-    "author": "Nicolas G",
+    "author": "Nicolas Golubovic",
     "abstract": "In an everlasting struggle to find the balance between security, privacy and that toolbar which slipped in after you've installed Java, browser extension systems constantly evolve. Three years after Kotowicz has pwned our stuff, we will explore old and new attack techniques for both Firefox and Chrome. Finally, we will engage in a jolly expedition to long-forgotten extension types and convince them to exploit the browser itself.",
     "bio": ""
   }
