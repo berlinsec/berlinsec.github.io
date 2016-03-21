@@ -1,6 +1,6 @@
 [
   {
-    "title": "An Abusive Relationship with AngularjS",
+    "title": "An Abusive Relationship with AngularJS",
     "author": "Mario Heiderich",
     "abstract": " This talk will have a stern, very stern look at AngularJS in particular and shed light on the security aspects of this ever-popular tool. Did the super-hero framework do everything right and follow its own super-heroic principles? Does AngularJS increase or rather decrease the attack surface of a web application? How does AngularJS play along with the Content Security Policy, and was it a good idea to combine this kind of security with futuristic feature creep? And what about AngularJS version 2.0?",
     "bio": ""
