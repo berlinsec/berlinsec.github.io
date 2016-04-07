@@ -9,9 +9,13 @@ function meetupCallback(result) {
     var month = ["January", "February", "March", "April", "May", "June", "July",
       "August", "September", "October", "November", "December"][date.getMonth()];
     var day = date.getDate();
-    var niceday = day + superScriptDaySuffix(day)
+    var niceday = day + superScriptDaySuffix(day);
     var h1 = document.getElementById("next-meetup-headline");
-    h1.innerHTML = "Next meetup " + month + " " + niceday;
+    if ((new Date()).toDateString() == date.toDateString()) {
+       h1.innerHTML = "Next meetup is today!";
+    } else {
+        h1.innerHTML = "Next meetup " + month + " " + niceday;
+    }
   } else {
     var h1 = document.getElementById("next-meetup-headline");
     h1.innerHTML = "Next meetup TBD";
