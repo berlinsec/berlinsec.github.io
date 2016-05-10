@@ -1,8 +1,2 @@
 [
-  {
-    "title": "Implementation problems with AES-GCM",
-    "author": "Hanno Böck",
-    "abstract": "Due to various attacks many TLS cipher suites are now considered either completely insecure (RC4) or very risky (all CBC ciphers). The only symmetric cipher mode that is left without major issues is AES in combination with the Galois/Counter-Mode (GCM). Most internet connections these days use AES-GCM. Hanno will present what can go wrong when using GCM-based cipher modes.",
-    "bio": ""
-  }
 ]
