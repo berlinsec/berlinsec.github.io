@@ -1,14 +1,14 @@
 [
   {
-    "title": "An Abusive Relationship with AngularJS",
-    "author": "Mario Heiderich",
-    "abstract": " This talk will have a stern, very stern look at AngularJS in particular and shed light on the security aspects of this ever-popular tool. Did the super-hero framework do everything right and follow its own super-heroic principles? Does AngularJS increase or rather decrease the attack surface of a web application? How does AngularJS play along with the Content Security Policy, and was it a good idea to combine this kind of security with futuristic feature creep? And what about AngularJS version 2.0?",
+    "title": "TLS Version Intolerance",
+    "author": "Hanno B\u00F6ck",
+    "abstract": "In a TLS handshake, the client announces it's maximum supported version and the server then has to pick the version given this and its own level of support. TLS Version Intolerance refers to a widespread bug that many server implementations abort the connection when the client version is higher than the highest version number they support. This, in turn leads to clients downgrading voluntarily when experiencing connection failures.",
     "bio": ""
   },
   {
-    "title": "On The Security Of Browser Extensions",
-    "author": "Nicolas Golubovic",
-    "abstract": "In an everlasting struggle to find the balance between security, privacy and that toolbar which slipped in after you've installed Java, browser extension systems constantly evolve. Three years after Kotowicz has pwned our stuff, we will explore old and new attack techniques for both Firefox and Chrome. Finally, we will engage in a jolly expedition to long-forgotten extension types and convince them to exploit the browser itself.",
+    "title": "Taint me if you can",
+    "author": "joernchen",
+    "abstract": "Tainting in Ruby is often seen as a security feature. This short talk will show some quite funny cornercases where tainting fails. We well see how CVE-2015-7551 can be re-introduced. Also an old MSF module from 2011 [0] will be reanimted to work in 2016.\n\n\n [0] https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/drb_remote_codeexec.rb",
     "bio": ""
   }
 ]
