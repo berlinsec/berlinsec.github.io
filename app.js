@@ -21,7 +21,7 @@ function meetupCallback(result) {
     h1.innerHTML = "Next meetup TBD";
 
     h1.insertAdjacentHTML('afterend',
-      '<p>Check back later or subscribe to our <a ' +
+      '<p>Check back later or join our <a ' +
       'href="http://www.meetup.com/Berlin-Application-Security-Cryptography-Meetup">' +
       'meetup group</a></p>');
   }
