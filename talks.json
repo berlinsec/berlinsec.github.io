@@ -1,14 +1,14 @@
 [
   {
-    "title": "TLS Version Intolerance",
+    "title": "TLS 1.3 and Version Intolerance",
     "author": "Hanno B\u00F6ck",
-    "abstract": "In a TLS handshake, the client announces it's maximum supported version and the server then has to pick the version given this and its own level of support. TLS Version Intolerance refers to a widespread bug that many server implementations abort the connection when the client version is higher than the highest version number they support. This, in turn leads to clients downgrading voluntarily when experiencing connection failures.",
+    "abstract": "Whenever a new TLS version gets introduced existing implementations need to be able to properly handle that. A relatively simple version negotiation mechanism is therefore part of the TLS Handshake.  Despite being simple multiple implementations failed to properly implement that Handshake in the past, subsequently causing security vulnerabilities in the ecosystem. It seems the industry is on track repeating all the same mistakes again with TLS 1.3. The speaker has identified three vulnerable vendors (Cisco, Citrix, IBM), none of them has yet reacted in a proper way.",
     "bio": ""
   },
   {
     "title": "Taint me if you can",
     "author": "joernchen",
-    "abstract": "Tainting in Ruby is often seen as a security feature. This short talk will show some quite funny cornercases where tainting fails. We well see how CVE-2015-7551 can be re-introduced. Also an old MSF module from 2011 [0] will be reanimted to work in 2016.\n\n\n [0] https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/drb_remote_codeexec.rb",
+    "abstract": "Tainting in Ruby is often seen as a security feature. This short talk will show some quite funny cornercases where tainting fails. We well see how CVE-2015-7551 can be re-introduced. Also an old MSF module from 2011 will be reanimted to work in 2016.",
     "bio": ""
   }
 ]
