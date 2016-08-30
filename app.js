@@ -85,14 +85,14 @@ function talkMetaData() {
         var p_0 = document.createElement('P');
         p_0.setAttribute("class", "presentation-abstract");
         div.appendChild(p_0);
-        p_0.textContent = talk.abstract;
+        p_0.innerHTML = talk.abstract;
       }
 
       if (talk.bio) {
         var p_1 = document.createElement('P');
         p_1.setAttribute("class", "presentation-bio");
         div.appendChild(p_1);
-        p_1.textContent = talk.bio;
+        p_1.innerHTML= talk.bio;
       }
 
       section.appendChild(div);
