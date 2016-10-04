@@ -2,7 +2,7 @@
   {
     "title": "Post Quantum Cryptography on the Internet",
     "author": "Franziskus Kiefer",
-    "abstract": "A short introduction into post-quantum crypto, talking about challenges and ongoing work."
+    "abstract": "A short introduction into post-quantum crypto, talking about challenges and ongoing work. With quantum copmuters on the horizon we have to implement new cryptography primitives that are resistant against quantum algorithms. I'll talk about quantum attacks and what algorithms we can use to secure communication in a world with quantum computers."
   },
   {
     "title": "Trusting a CA? Verify!",
