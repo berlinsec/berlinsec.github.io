@@ -3,6 +3,10 @@
     "title": "Post Quantum Cryptography on the Internet",
     "author": "Franziskus Kiefer",
     "abstract": "A short introduction into post-quantum crypto, talking about challenges and ongoing work.",
-    "bio": ""
+  },
+  {
+    "title": "Trusting a CA? Verify!",
+    "author": "Frederik Braun",
+    "abstract": "Numerous incidents have shown that Certificate Authorities (CA) are not always as trustworthy as they should be. This talk introduces various techniques that allow stricter setups in a safe way. First of all, HTTP Public Key Pinning (HPKP) allows websites to enforce certificate pinning in the browser. Certificate Transparency helps establishing a verifiable append-only record of certificates. Lastly, DNS CAA records help establishing CA-pinning mechanism for both client programs as well as CA infrastructure.",
   }
 ]
