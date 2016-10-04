@@ -4,5 +4,11 @@
     "author": "Franziskus Kiefer",
     "abstract": "A short introduction into post-quantum crypto, talking about challenges and ongoing work.",
     "bio": ""
+  },
+  {
+    "title": "Version negotiation and GREASE in TLS 1.3",
+    "author": "Tim Taubert",
+    "abstract": "A short follow-up to Hanno's talk at the last meetup, covering the latest from the TLS 1.3 WG.",
+    "bio": ""
   }
 ]
