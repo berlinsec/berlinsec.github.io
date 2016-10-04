@@ -1,2 +1,8 @@
 [
+  {
+    "title": "Post Quantum Cryptography on the Internet",
+    "author": "Franziskus Kiefer",
+    "abstract": "A short introduction into post-quantum crypto, talking about challenges and ongoing work.",
+    "bio": ""
+  }
 ]
