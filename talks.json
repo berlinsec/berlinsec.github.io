@@ -1,12 +1,2 @@
 [
-  {
-    "title": "Post Quantum Cryptography on the Internet",
-    "author": "Franziskus Kiefer",
-    "abstract": "A short introduction into post-quantum crypto, talking about challenges and ongoing work. With quantum copmuters on the horizon we have to implement new cryptography primitives that are resistant against quantum algorithms. I'll talk about quantum attacks and what algorithms we can use to secure communication in a world with quantum computers."
-  },
-  {
-    "title": "Version negotiation and GREASE in TLS 1.3",
-    "author": "Tim Taubert",
-    "abstract": "A short follow-up to Hanno's talk at the last meetup, covering the latest from the TLS 1.3 WG. I will talk about a new version negotiation mechanism that addresses existing version intolerance, and about GREASE, a mechanism aiming to prevent similar implementation problems in the future."
-  }
 ]
