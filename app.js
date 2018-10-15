@@ -17,6 +17,8 @@ function meetupCallback(result) {
         h1.innerHTML = "Next meetup " + month + " " + niceday;
     }
   } else {
+    // no next meetup, remove talks info
+    document.getElementById("next-meetup-talks").innerHTML=""; //FIXME this is a dirty hack
     var h1 = document.getElementById("next-meetup-headline");
     h1.innerHTML = "Next meetup TBD";
 
