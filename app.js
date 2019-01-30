@@ -24,7 +24,7 @@ function meetupCallback(result) {
 
     h1.insertAdjacentHTML('afterend',
       '<p>Check back later or join our <a ' +
-      'href="https://www.meetup.com/Berlin-Application-Security-Cryptography-Meetup">' +
+      'href="https://www.meetup.com/BerlinSecurity/">' +
       'meetup group</a></p>');
   }
 
