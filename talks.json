@@ -1,2 +1,12 @@
 [
+    {
+        "title": "XSS through MIME sniffing",
+        "author": "Hanno Böck",
+        "abstract": "Securing file uploads is not easy. MIME sniffing behavior both by web servers and by browsers can easily lead to XSS in many common situations in web applications."
+    },
+    {
+        "title": "Code Execution Analysis in Mobile Apps",
+        "author": "-",
+        "abstract": "Proper binary analysis necessitates the use of debuggers to monitor/alter the flow of execution. Mobile apps are no different. This talk will go over the techniques and methodology used to monitor, debug, and finally execute arbitrary code inside a packaged mobile app for analysis and debugging purposes."
+    }
 ]
