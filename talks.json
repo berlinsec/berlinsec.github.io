@@ -6,7 +6,7 @@
     },
     {
         "title": "Code Execution Analysis in Mobile Apps",
-        "author": "-",
+        "author": "Abdullah Joseph",
         "abstract": "Proper binary analysis necessitates the use of debuggers to monitor/alter the flow of execution. Mobile apps are no different. This talk will go over the techniques and methodology used to monitor, debug, and finally execute arbitrary code inside a packaged mobile app for analysis and debugging purposes."
     }
 ]
