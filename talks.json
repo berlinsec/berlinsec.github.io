@@ -8,5 +8,10 @@
         "title": "Code Execution Analysis in Mobile Apps",
         "author": "Abdullah Joseph",
         "abstract": "Proper binary analysis necessitates the use of debuggers to monitor/alter the flow of execution. Mobile apps are no different. This talk will go over the techniques and methodology used to monitor, debug, and finally execute arbitrary code inside a packaged mobile app for analysis and debugging purposes."
+    },
+    {
+        "title": "Remote Code Execution in Firefox beyond memory corruptions",
+        "author": "Frederik Braun (@freddyb)",
+        "abstract": "Browsers are complicated enough to provide attack surface beyond memory safety issues. This talk will look into injection flaws in the user interface of Mozilla Firefox, which is implemented in JS, HTML and an XML-dialect called XUL. Having achieved an XSS in the user interface, attackers can execute arbitrary code in the context of the browser application process, with cross-platform exploits of high reliability. This talk discusses fixed browser vulnerabilities from 2017 and early 2018." 
     }
 ]
