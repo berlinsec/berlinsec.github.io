@@ -1,12 +1,2 @@
 [
-    {
-        "title": "Messaging Layer Security (MLS)",
-        "author": "Raphael Robert",
-        "abstract": "Messaging Layer Security (MLS) is an IETF working group building a modern, efficient, secure group messaging protocol. The protocol includes advanced security properties, such as Forward Secrecy and Post-compromise Security in addition to message confidentiality and authenticity. This talk will cover how MLS works on a high level and give some context about secure messaging."
-    },
-    {
-        "title": "hacspec",
-        "author": "Franziskus Kiefer",
-        "abstract": "hacspec is a proposal for a new specification language for crypto primitives that is succinct, that is easy to read and implement, and that lends itself to formal verification. hacspec aims to formalize the pseudocode used in crypto standards by proposing a formal syntax that can be checked for simple errors. hacspec specifications can then be tested against test vectors specified in a common syntax. The talk will give an overview of hacspec and formal verification for cryptographic primitves."
-    }
 ]
