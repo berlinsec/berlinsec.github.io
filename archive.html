@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>BerlinSec– Berlin Application Security &amp; Cryptography Meetup</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="/">
+          <img id="logo-picture" src="logo3.png" style="width:70%" alt="Logo">
+        </a>
+      </div>
+      <p id="tagline">
+        BerlinSec is the Application Security &amp; Cryptography meetup
+        for professionals and enthusiasts.<br>
+      </p>
+      <!--TODO get someone to do nice artwork with ampelmännchen and
+        hacker images
+        like https://thenounproject.com/search/?q=cyber&i=65512
+        and https://thenounproject.com/search/?q=hacker
+        -->
+    </header>
+    <h1 id="next-meetup-headline">Past Meetups</h1>
+    <h2>2019-04-17</h2>
+    <section>
+     <div class="presentation">
+       <h3 class="presentation-title">Web and Spectre</h3>
+       <p class="presentation-author">Anne van Kesteren</p>
+       <p class="presentation-abstract">A brief introduction to how browsers and sites are planning to combat Spectre and where to find out more.</p>
+     </div>
+    </section>
+    <h2>2019-04-02 (Berlin Crypto)</h2>
+    <section>
+     <div class="presentation">
+       <h3 class="presentation-title">Messaging Layer Security (MLS)</h3>
+       <p class="presentation-author">Raphael Robert</p>
+       <p class="presentation-abstract">Messaging Layer Security (MLS) is an IETF working group building a modern, efficient, secure group messaging protocol. The protocol includes advanced security properties, such as Forward Secrecy and Post-compromise Security in addition to message confidentiality and authenticity. This talk will cover how MLS works on a high level and give some context about secure messaging.</p>
+     </div>
+     <div class="presentation">
+       <h3 class="presentation-title">hacspec</h3>
+       <p class="presentation-author">Franziskus Kiefer</p>
+       <p class="presentation-abstract">hacspec is a proposal for a new specification language for crypto primitives that is succinct, that is easy to read and implement, and that lends itself to formal verification. hacspec aims to formalize the pseudocode used in crypto standards by proposing a formal syntax that can be checked for simple errors. hacspec specifications can then be tested against test vectors specified in a common syntax. The talk will give an overview of hacspec and formal verification for cryptographic primitves.</p>
+     </div>
+    </section>
+    <h2>2019-02-19</h2>
+    <section>
+     <div class="presentation">
+       <h3 class="presentation-title">XSS through MIME sniffing</h3>
+       <p class="presentation-author">Hanno Böck</p>
+       <p class="presentation-abstract">Securing file uploads is not easy. MIME sniffing behavior both by web servers and by browsers can easily lead to XSS in many common situations in web applications. (An earlier version of this talk <a href="https://www.youtube.com/watch?v=dBJt3eR8-bg">is available on Youtube</a>.)</p>
+     </div>
+     <div class="presentation">
+       <h3 class="presentation-title">Code Execution Analysis in Mobile Apps</h3>
+       <p class="presentation-author">Abdullah Joseph</p>
+       <p class="presentation-abstract">Proper binary analysis necessitates the use of debuggers to monitor/alter the flow of execution. Mobile apps are no different. This talk will go over the techniques and methodology used to monitor, debug, and finally execute arbitrary code inside a packaged mobile app for analysis and debugging purposes.</p>
+     </div>
+     <div class="presentation">
+       <h3 class="presentation-title">Remote Code Execution in Firefox beyond memory corruptions</h3>
+       <p class="presentation-author">Frederik Braun (@freddyb)</p>
+       <p class="presentation-abstract">Browsers are complicated enough to provide attack surface beyond memory safety issues. This talk will look into injection flaws in the user interface of Mozilla Firefox, which is implemented in JS, HTML and an XML-dialect called XUL. Having achieved an XSS in the user interface, attackers can execute arbitrary code in the context of the browser application process, with cross-platform exploits of high reliability. This talk discusses fixed browser vulnerabilities from 2017 and early 2018.</p>
+     </div>
+    </section>
+    <hr>
+     <section id="about">
+      <div id="where">
+        <h4>Where</h4>
+<!--        <p>Next time we meet at the
+        <a href="https://www.openstreetmap.org/#map=19/52.52399/13.40217">Wire</a> office,
+        Rosenthaler Straße 40-41, 10178 Berlin.</p>
+        <p>The next meetup is a special Berlin Crypto meetup and not at our
+        usual location at Mozilla Berlin.</p>
+-->
+        <p>We meet at <a href="https://www.openstreetmap.org/node/4996803917">Mozilla Berlin</a><br>
+          Schlesische Straße 27 (Building 3, 4th floor), 10997 Berlin
+        </p>
+        <small>Trouble finding us?<br>
+        Enter the courtyard at Schlesische Str. 27 and go to the very end.<br>
+        Take the entrance to your left and go up to floor 4.<br>
+        <a href="https://www.openstreetmap.org/node/4039730931">
+        Here's a map</a> showing the precise location of the building.
+        </small>
+      </div>
+      <div id="when"><h4>Code of Conduct</h4> <p>We are an inclusive and safe meetup. 
+As a user of the Mozilla Space in Berlin, we follow <a id="coc-link" href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Mozilla's Community Participation Guidelines</a></p></div>
+      <div id="contact">
+        <h4>Contact</h4>
+        <p>
+          <a href="https://github.com/berlinsec/berlinsec.github.io/wiki/BerlinSec-Wiki#submitting-a-talk">
+          Submit a talk</a>.
+          <br>
+          <a href="https://www.meetup.com/BerlinSecurity/">
+            Meetup page
+          </a>
+          <br>
+          <a href="https://github.com/berlinsec">
+          GitHub</a>
+          <br>
+        </p>
+      </div>
+      <div id="team">
+        <h4>Team</h4>
+        <p>
+          We're a bunch of security enthusiasts.
+          Mozilla is nice enough to give us the
+          space, but this meetup and its leaders do not speak
+          on behalf of Mozilla.
+          <!-- TODO ask meetup API for
+            https://www.meetup.com/Berlin-Application-Security-Cryptography-Meetup/members/?op=leaders ??
+            -->
+        </p>
+      </div>
+    </section>
+    <hr>
+    <footer>
+      <small>
+      Our web page layout borrows heavily from <a
+        href="https://berlinjs.org/">BerlinJS</a>.
+      So, thank you, fine people of <a
+        href="https://berlinjs.org/">BerlinJS</a>.
+      @freddyb is guilty for messing up the logo, but not for the fine artwork underneath:
+      The
+      <a href="https://thenounproject.com/grega.cresnar/collection/security/?i=228830">encryption icon by Gregor Črešnar</a>
+      and the <a href="https://thenounproject.com/The%20Moza/collection/berlin/?i=199002">berlin map from Anna Weiss</a>.
+      </small>
+    </footer>
+  </body>
+</html>
