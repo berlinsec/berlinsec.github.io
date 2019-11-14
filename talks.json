@@ -1,0 +1,17 @@
+Name: Kashyap Thimmaraju
+Title: Attacking and Defending Cloud Networks
+Abstract: In this talk I will describe practical threats and solutions related
+to malicious (hardware and software) switches in cloud networks.  In particular,
+I will focus on cloud networks that i) consolidate control over the (hardware
+and software) switches to a logically centralized controller and ii) use
+virtualization techniques for multi-tenancy. I will present some of my most
+compelling research from the past 4.5 years which involves work on covert
+channels in the control plane, and isolation in the data plane. I will talk
+about the attacks and defenses from a conceptual perspective and then support
+that using real-world software and/or hardware. If there is time I can also
+share some demos.
+
+I'd like to talk for 30 minutes and then take as many questions as possible.
+
+You can find my research profile on google scholar.
+https://scholar.google.com/citations?user=Aw1eG5AAAAAJ&hl=en
